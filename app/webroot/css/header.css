@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#homepage-bgw{
+	background:url(../img/index/3.jpg) repeat top left;
+	width:100%;
+	background-position: center;
+	height: 100%;
+	position: fixed;
+	z-index: -2;
+}
+
+#container{
+	width: 1200px;
+	/*line-height:50px;*/
+	/*height: 2000px;*/
+	/*border: 1px solid #FF0000;*/
+	/*margin-left:10px;
+	padding-left:10px;*/
+	margin:0px auto;
+	/*text-align:center;*/
+}
+
+
+.clear{
+    clear: both;
+}

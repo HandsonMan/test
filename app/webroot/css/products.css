@@ -1,0 +1,128 @@
+#float-taoci{
+	background-color:rgba(0,0,0,0.4);
+	width:100%;
+	height:50px;
+	position: fixed;
+	z-index: 1;
+	background-position: center;
+}
+#float-taoci:hover{
+	background-color:rgba(0,0,0,0.8);
+}
+#float-search{
+	float: right;
+	margin-right: 400px;
+}
+.float-link{
+	color: rgba(255,255,255,0.4);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: "宋体";
+	height:50px;
+    line-height:50px;
+    margin-left:40px;
+}
+.float-link:hover{
+	color: rgba(255,255,255,0.8);
+}
+#float-p{
+	color:rgba(255,255,255,0.4);
+	font-size: 28px;
+	font-family: "楷体";
+	margin-top:8px;
+	margin-left: 120px;
+	float: left;
+}
+#float-img{
+	background:url(../img/taoci/4.png) no-repeat;
+	width:100%;
+	height: 50px;
+	position: absolute;
+	z-index: 0;
+	display: block;
+	margin-left: 180px;
+}
+#float-block{
+	margin-top:11px;
+	margin-left: 40px;
+}
+.float-block{
+	font-size: 23px;
+	width: 240px;
+	background-color: rgba(255,255,255,0);
+	border: none;
+}
+.float-ok{
+	font-size: 23px;
+	width: 28px;
+	background-color: rgba(255,255,255,0);
+	border: none;
+	margin-left: 7px;
+	cursor: pointer;
+}
+.title-img{
+	background: url(../img/taoci/1.png) no-repeat;
+	width:1200px;
+	height: 500px;
+	position: absolute;
+	z-index: -1;
+	display: block;
+}
+#word{
+	padding-top: 400px;
+	float: left;
+	width: 500px;
+	height: 30px;
+}
+#word h1{
+	color:rgba(255,255,255,0.7);
+	margin:5px 5px 5px 40px;
+	padding-left:30px;
+	font-size:30px;
+	background:transparent url(../img/taoci/2.png) no-repeat bottom left;
+	padding-bottom:15px;
+	cursor: pointer;
+}
+#word h1:hover{
+	color:white;
+}
+#block{
+	padding-top: 350px;
+	margin-left: 500px;
+}
+#bg{
+	background:url(../img/taoci/3.png) no-repeat;
+	width:700px;
+	height: 600px;
+	display: none;
+}
+#bg-img{
+	
+}
+#bg-bottom{
+	color: white;
+	font-size: 26px;
+	text-align: center;
+	border: 2px solid #e2dcd9;
+	width: 150px;
+	margin: 0 auto;
+	line-height:50px;
+	height: 50px;
+}
+.paging{
+	color: rgba(255,255,255,0.7);
+	font-size: 20px;
+	width: 500px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 20px;
+}
+.paging span a{
+	color: white;
+	font-size: 20px;
+	width: 500px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}

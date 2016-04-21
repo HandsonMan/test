@@ -1,0 +1,149 @@
+#homepage-bgw{
+	display: block;
+}
+#homepage-bg{
+	background:url(../img/index/1.jpg) no-repeat;
+	width:100%;
+	background-position: center;
+	height: 660px;
+	position: fixed;
+	z-index: -1;
+	display: block;
+}
+
+#png{
+	padding-top:180px;
+	margin-left:130px;
+}
+#nav{
+    /*改此width大小，配合#nav idv中 width 25%可以均分a的间距*/
+    /*width: 1000px;*/
+    margin: 150px auto 0 auto;
+    /*border: 1px solid red;*/
+    height: 300px;
+    
+}
+
+#nav div{
+    /*width: 25%;*/
+    margin-left:110px;
+    float: left;
+    text-align: center;
+}
+
+.link{
+    height:54px;
+    line-height:54px;
+    display:inline-block;
+    text-decoration: none;
+	color:#e2dcd9;
+	font-size: 36px;
+	font-family: "方正大标宋简体"
+	font-weight: bold;
+	border: 2px solid #e2dcd9;
+	padding: 0 20px;
+}
+
+.link:hover{
+	color: white;
+	border: 2px solid white;
+}
+
+#booklet{
+    height: 1024px; 
+    background: url(../img/index/4.jpg);
+    
+}
+
+#introduction{
+   height: 660px;
+   background: url(../img/index/2.jpg);
+}
+
+
+#addHieght{
+    height: 200px;
+}
+
+
+
+
+/* 首页登录 开始*/
+
+#index-login{
+    padding-top:150px;
+    /*text-align: center;*/
+    /*border: 1px solid red;*/
+    width:710px;
+    margin: 0 auto;
+}
+
+#index-login label{
+    font-family: "宋体";
+    font-size: 48px;
+    /*border:1px solid red;*/
+    /*font-style:italic;*/
+    color:white;
+	float: left;
+	padding-top: 30px;
+	font-weight: bold;
+}
+
+/*#login-username{
+    font-style: italic;
+}*/
+
+.login-input{
+    height: 40px;
+    width: 500px;
+    margin-top:40px;
+    vertical-align:middle;
+    background-color: rgba(255,255,255,0.5);
+    border: none;
+    font-size: 40px;
+    text-indent: 5px;
+    font-weight: bold;
+}
+
+#login-submit{
+    margin-top:60px;
+    color:rgba(0,0,0,0.5);
+    background-color:rgba(255,255,255,0.5);
+    font-size: 48px;
+    font-family: "宋体";
+    height:70px;
+    line-height:70px;
+    border:none;
+    text-decoration: none;
+    padding: 0 30px; 
+    cursor: pointer;
+    font-weight: bold;
+    /*font-style: italic;*/
+}
+#login-submit:hover{
+	color:rgba(0,0,0,0.7);
+    background-color:rgba(255,255,255,0.7);
+}
+
+.login-link{
+	color:white;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#login-link1{
+	margin-right: 40px;
+}
+
+#index-login-links{
+	text-align: right;
+	margin-top: 20px;
+}
+#index-login-submit{
+	text-align: center;
+}
+/* 首页登录 结束*/
+.clear{
+	clear: both;
+}
